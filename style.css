@@ -1,0 +1,88 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg,#0c0511, #1a0b25, #271038);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+
+/* =========== Header =========== */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interface p{
+    margin-left: 30px;
+}
+
+.cotacoes{
+    color: #fff;
+}
+
+.cotacoes h1{
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.heads{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cotacoes h2 {
+    font-size: 22px;
+    font-weight: 450;
+}
+
+#img_crypto{
+    border-radius: 15px;
+    height: 40px;
+}
+
+.fileira{
+    display: flex;
+    justify-content: space-around;
+}
+
+.crypto{  
+    width: 15%;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+
+.interface .img_txt{
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    text-indent: 10px; /* Espaço entre imagem e texto */
+}
+
+
+
+
+
+
+
+
+
+
